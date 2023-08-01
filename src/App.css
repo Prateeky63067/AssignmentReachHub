@@ -1,0 +1,82 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+
+.outBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 70px !important;
+}
+.cards{
+  
+  margin-right: 20 px !important;
+  padding: 0;
+ 
+}
+.card{
+  width: 300px !important;
+  height: 400px !important;
+  margin-bottom: 40px !important;
+  margin-right: 40px !important;
+}
+.card > .image {
+  height: 250px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+.card > .image > img {
+  height: 250px !important;
+  max-width: 100%;
+  width: auto;
+}
+
+
+.ui.grid > .row > .column.lp {
+  padding: 20px 40px 20px 20px;
+  align-self: flex-start !important;
+}
+.ui.grid > .row > .column.rp {
+  padding: 20px 20px 20px 40px;
+  text-align: left;
+  align-self: flex-start !important;
+}
+
+.ui.grid > .row > .column > img,
+.ui.grid > .row > img {
+  height: 100%;
+}
+.ui.placeholder .header:not(:first-child):before,
+.ui.placeholder .image:not(:first-child):before,
+.ui.placeholder .paragraph:not(:first-child):before {
+  display: none;
+}
+
+.ui.label,
+.ui.labels .label {
+  font-size: 22px;
+}
+
+.column.rp h1 {
+  color: #333;
+}
+.column.rp p {
+  font-size: 18px;
+  color: #777;
+}
+.ui.placeholder.segment .column .button,
+.ui.placeholder.segment .column .field,
+.ui.placeholder.segment .column textarea,
+.ui.placeholder.segment .column > .ui.input {
+  background-color: #ff3e6c;
+  border: 1px solid #ff3e6c;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 0;
+}
+
